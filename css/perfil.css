@@ -1,0 +1,316 @@
+.botao-centralizado {
+    display: block;
+
+    margin-right: auto;
+    position: relative;
+    top: calc(50% - 15px);
+    width: 200px;
+    color: blue;
+    max-width: 80%;
+    z-index: 999;
+
+}
+
+.rodela {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    position: relative;
+    top: calc(50% - 80px);
+    width: 100px;
+    height: 100px;
+    background-color: #fff;
+    border-radius: 100%;
+    border: 5px solid #00008b;
+
+}
+
+.father-button {
+    color: #00008b;
+    font-weight: bold;
+}
+
+.egg-img {
+    margin-right: auto;
+    position: relative;
+    top: calc(50% - 15px);
+    margin-right: 5px;
+}
+
+.botao-mais {
+    width: 30px;
+    height: 30px;
+    background-color: #fff;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    margin-left: auto;
+    border-radius: 10px
+}
+
+.botao-mais:hover {
+    cursor: pointer;
+}
+
+
+.txt-consumo {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    position: relative;
+    top: calc(50% - 60px);
+    width: 120px;
+    height: 120px;
+
+}
+
+.text-centralizado {
+
+    position: relative;
+    top: calc(50% - 20%);
+    text-align: center;
+    color: #fff;
+
+}
+
+.textEntrar-centralizado {
+
+    position: relative;
+    top: calc(50%);
+    color: #fff;
+    text-align: center
+}
+
+.textEntrar-centralizado a {
+    color: #fff;
+    text-decoration: none;
+}
+
+.a-style {
+    margin-left: 10px;
+    color: #fff;
+    text-decoration: none;
+}
+
+
+input {
+    border: 4px solid #000;
+}
+
+.esqueceuDaSenha a {
+
+    text-decoration: none;
+}
+
+@media(max-width: 575px) {
+    .container {
+        margin-top: 30vh;
+        margin-bottom: 15vh;
+    }
+}
+
+@media(max-width: 615px) {
+    .container {
+
+        margin-bottom: 15vh;
+    }
+}
+
+@media(max-height: 568px) {
+    .container {
+        margin-top: 40vh;
+    }
+}
+
+.container-fluid {
+    background-color: #005088;
+    height: 12vh;
+    position: relative;
+    top: 0;
+}
+
+.footer {
+    width: 100%;
+
+    height: 9vh;
+    position: fixed;
+    bottom: 0px;
+
+    background-color: #fff;
+
+    border-top: 1px solid #e0e0e0;
+}
+
+.container {
+    position: relative;
+    top: 0;
+
+    margin-top: 10px;
+}
+
+#botao-central {
+    height: 50px;
+    width: 50px;
+    background-image: url(sinal-de-mais-circular.png);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    position: absolute;
+    bottom: 50%;
+    border-radius: 100%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    z-index: 9999;
+}
+
+#botao-central:hover {
+    cursor: pointer;
+}
+
+.hover-pointer:hover {
+    cursor: pointer;
+}
+
+.container{
+    height: auto;
+    display: flex; 
+    align-items: 
+    center;
+    justify-content: center;
+}
+
+form{
+    width: 90%;
+}
+
+#primeiraLinha{
+    background-color: #A4BDD6;
+    width: 100%; 
+    max-width: 650px; 
+    margin-left:auto; 
+    margin-right: auto; 
+    border-radius: 1%;
+    text-align: center; 
+    display: flex;
+    align-items: center;
+    justify-content: center; 
+    padding: 20px;
+}
+
+#primeiraColuna{
+    height: 100%;
+}
+
+.txt-consumo{
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+    width: 100%;
+}
+
+#pKcal{
+    color: #90EE90; 
+    font-size: 20px;
+}
+
+#segundaColuna{
+    height: 100%; 
+    text-align: center;
+}
+
+.rodela{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#terceiraColuna{
+    height: 100%;
+}
+
+#txt-consumo{
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+}
+
+#segundopKcal{
+    color: red; 
+    font-size: 20px;
+}
+
+.father-button{
+    height: auto; 
+    padding:15px; 
+    background-color: #C4DFF6;
+    width: 100%;
+    max-width: 650px; 
+    margin-left:auto; 
+    margin-right: auto; 
+    border-radius: 1%; 
+    margin-top: 10px;
+}
+
+.egg-img{
+    width: 30px; 
+    height: 30px;
+}
+
+#quartaColuna{
+    height: 100%; 
+    text-align: left; 
+    padding-left:20px;
+}
+
+#quintaColuna{
+    height: 100%;
+}
+
+#sextaColuna{
+    height: 100%; 
+    text-align: left; 
+    padding-left:20px;
+}
+.show{
+    color: #fff;
+}
+
+.footer{
+    display: flex; 
+    align-items: center; 
+    justify-content: center;
+}
+
+#img{
+    width: 100%; 
+    height: auto;
+}
+
+#pointer{
+    height: 50px; 
+    width: 50px; 
+    margin-left: 20px; 
+    padding: 10px;
+}
+
+#dropdownMenuLink{
+    color: white;
+}
+
+#hover-pointer{
+    height: 50px; 
+    width: 50px; 
+    padding: 10px;
+}
+
+#divImg{
+    height: 20px; 
+    width: 100px;
+}
+
+#pesolink{
+    text-decoration: none;
+}
